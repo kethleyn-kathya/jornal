@@ -1,0 +1,113 @@
+body{
+    background-color: #7798ab ;
+    color: #0d1b1e;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+ header {
+     background-color: white;
+ }
+h1{
+    color: #0d1b1e;
+    text-align: center;
+}
+
+footer {
+    background-color: #c3dbc5;
+    padding: 15px;
+    text-align: center;
+}
+
+a:link {
+    color: #454372;
+}
+
+
+a:visited {
+    color: palevioletred;
+}
+
+ 
+
+ 
+ nav ul {
+     box-sizing: border-box;
+     padding: 24px;
+     list-style-type: none;
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+    }
+
+
+    nav ul li a {
+        text-decoration: none;
+        color: #454372;
+
+    }
+
+    nav ul li a:hover {
+        cursor: pointer;
+        color: #7798ab;
+        border-bottom: 2px solid #d9bdc5;
+
+    }
+
+    .menu {
+        text-align: center;
+        transition: all 5s ease 0s;
+    
+    }
+    img {
+    width: 400px;
+    height: 300px;
+    padding: 24px;
+}
+
+.video {
+    display: flex;
+     justify-content: center;
+     padding: 24px;
+
+}
+
+article {
+    display: block;
+    background-color: #EAD5E6;
+    float: left;
+    margin: 24px;
+}
+
+p {
+    text-align: justify;
+    padding: 20px;
+    font-family: 'Work Sans', sans-serif;
+    color: black;
+}
+
+.texto {
+    display: table-cell;
+    float: right;
+    width: 775px;
+}
+
+.menu {
+
+    padding: 20px;
+    background-color: #ccfdde;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .menu:hover {
+    animation-name: titulo;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    }
+    @keyframes titulo {
+    0% { background-color: #c3dbc5; color: #d9bd }
+    25% { background-color: #d9bdc5; color: #ead5e6 }
+    50% { background-color: #ead5e6; color: #7798ab }
+    75% { background-color: #7798ab; color:#c3dbc5  }
+    100% { background-color: #c3dbc5; color:#d9bd }
+    }
